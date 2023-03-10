@@ -2,6 +2,9 @@
 name = "unmangos"
 version = "0.1.0"
 
+[dependencies]
+bootloader = "0.9.23"
+
 [profile.dev]
 panic = "abort"
 
