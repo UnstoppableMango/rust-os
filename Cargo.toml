@@ -1,0 +1,9 @@
+[package]
+name = "unmangos"
+version = "0.1.0"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
